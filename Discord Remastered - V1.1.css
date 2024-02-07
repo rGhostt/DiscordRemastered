@@ -1,0 +1,123 @@
+/**
+ | For the theme |
+ | DONT TOUCH |
+ * @name Discord Remastered
+ * @description A Nice And Simplistic Discord Theme
+ * @author projectenervo
+ * @authorId 485881833251405824
+ * @version 1.1
+*/
+
+/* Don't Touch Above
+
+/**
+-------------------------------------------------------------------------------------------------------------------------
+
+ * Project Name - Discord Remastered
+ * Project Main Author - projectenervo
+ * Project Main AuthorId - 485881833251405824
+ * Project Secondary Author - vitrics
+ * Project Secondary AuthorId - 1044489673889820815
+ * Project Version 1.1
+
+Please contact 'projectenervo' if you have any suggestions or bugs
+
+-------------------------------------------------------------------------------------------------------------------------
+
+ | CHANGE LOG |
+ - Working on the [Discord Variables] descriptions
+
+-------------------------------------------------------------------------------------------------------------------------
+
+ | CREDITS |
+ * Discord 11 - https://github.com/zuzumi-f/Discord-11?tab=readme-ov-file#customization
+ * Novaturient - https://github.com/warrayquipsome/NOVATURIENT
+ * Tokyo Night - https://github.com/Dyzean/Tokyo-Night
+
+-------------------------------------------------------------------------------------------------------------------------
+
+/* DONT TOUCH THIS!!! */
+@import url("https://dyzean.github.io/Tokyo-Night/src/main.css");
+
+/*Inports*/
+
+/* | For the Orange Color | */
+@import url("https://raw.githubusercontent.com/rGhostt/Discord-Remastered/main/Thing.css?token=GHSAT0AAAAAACN4WRR2KPPRJX6SNDV4BYAGZODCL5Q");
+
+/* | Mac Title Bar | */
+@import url("https://dyzean.github.io/Tokyo-Night/addons/mac-titlebar.css");
+
+/* | Windows 11 Fonts | */
+@import url(https://zuzumi-f.github.io/Discord-11/release/font/windows11font.css);
+
+/* | Windows 11 Emojis | */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
+
+/* | Message Bubbles | */
+@import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css);
+
+
+/* |Horizontal Server List (Remove the "/*" to enable this | */
+/* @import url("https://warrayquipsome.github.io/NOVATURIENT/HorizontalServer.css");
+
+-------------------------------------------------------------------------------------------------------------------------
+
+/* EVERYTHING BELOW THIS LINE CAN BE EDITED // DO NOT TOUCH ABOVE
+
+-------------------------------------------------------------------------------------------------------------------------
+
+/* | Discord Variables | */
+.theme-dark {
+
+  /*  Header Color  */
+  --header-primary: var(--text-normal);
+  --header-secondary: var(--text-muted);
+
+  /*  Text Color  */
+  --text-normal: #b1bae6;
+  --text-muted: #565f89;
+  --interactive-normal: #5f647e;
+  --interactive-hover: #a2a6c2;
+  --interactive-active: #b5bad1;
+  --interactive-muted: #55576b;
+
+  /* Background Color */
+  --background-image: url(https://wallpapercave.com/wp/wp4806722.jpg); /* Default: url(https://wallpapercave.com/wp/wp4806722.jpg                                  - Background for app-mount, your own url, transparent (requires transparency enabled and dark theme set) or just a color. Var syntax: var(--var-name), url syntax: url(https://…).     */
+  --background-primary: #1a1b26;
+  --background-secondary: #171722;
+  --background-secondary-alt: #13131a;
+  --background-tertiary: #16161e;
+  --background-tertiary-alt: var(--background-secondary-alt);
+  --background-accent: #434461;
+  --background-floating: #161620;
+  --background-modifier-hover: #212331c0;
+  --background-modifier-active: #282a3680;
+  --background-modifier-selected: #24263171;
+  --background-modifier-accent: #1e1e29;
+  --background-mentioned: #252836;
+  --border-mentioned: #474c64;
+  --background-mentioned-hover: #2f3344;
+  --accent-color: #7aa2f7;
+
+  /* Folder Color */
+  --folder-color: #202332d0;
+  --folder-color-light: #2f3342d0;
+
+  /* Scrollbars Color */
+  --scrollbar-thin-thumb: transparent;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #2b2b46af;
+  --scrollbar-auto-thumb-hover: #27273d85;
+  --scrollba-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
+  --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
+
+  /* Chat Box Color */
+  --channeltextarea-background: var(--background-secondary);
+  --channeltextarea-background-hover: var(--background-tertiary);
+
+  /* Mac Titlebar addons */
+  --close-button-color: #e92a2ade;
+  --maximize-button-color: #f7bc1bde;
+  --minimize-button-color: #12db33de;
+}
